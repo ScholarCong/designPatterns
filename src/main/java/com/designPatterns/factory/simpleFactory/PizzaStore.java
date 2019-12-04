@@ -10,6 +10,7 @@ public class PizzaStore {
 //        new OrderPizza();
         new OrderPizza(new SimpleFactory());
         System.out.println("程序结束");
+        System.out.println("测试一下提交代码");
     }
 
 }
