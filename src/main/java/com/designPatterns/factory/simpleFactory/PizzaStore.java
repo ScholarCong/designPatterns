@@ -8,7 +8,8 @@ public class PizzaStore {
 
     public static void main(String[] args) {
 //        new OrderPizza();
-        new OrderPizza(new SimpleFactory());
+//        new OrderPizza(new SimpleFactory());
+        new OrderPizza1();
         System.out.println("程序结束");
         System.out.println("测试一下提交代码");
     }

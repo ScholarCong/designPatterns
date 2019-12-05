@@ -32,20 +32,13 @@ public class OrderPizza1 {
 //       }while(true);
 //    }
 
-    SimpleFactory simpleFactory = null;
     Pizza pizza = null;
+    String OrderType = "";
 
-    public OrderPizza1(SimpleFactory simpleFactory){
-        setSimpleFactory(simpleFactory);
-    }
-
-    public void setSimpleFactory(SimpleFactory simpleFactory) {
-        String OrderType = "";
-
-        this.simpleFactory = simpleFactory;
+    public OrderPizza1(){
         do {
             OrderType = getType();
-            pizza = this.simpleFactory.createPizza(OrderType);
+            pizza = SimpleFactory.createPizza(OrderType);
             if (pizza != null) {
                 pizza.prepare();
                 pizza.bake();
