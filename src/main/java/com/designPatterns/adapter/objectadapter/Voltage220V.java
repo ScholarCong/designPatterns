@@ -1,4 +1,4 @@
-package com.designPatterns.adapter.classadapter;
+package com.designPatterns.adapter.objectadapter;
 
 /**
  * @Author : wangcong
