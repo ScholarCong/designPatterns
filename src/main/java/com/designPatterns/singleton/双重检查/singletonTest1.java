@@ -17,7 +17,7 @@ public class singletonTest1 {
 }
 
 /**
- * 双重检测，即bao'zhe保证了线程安全，同时也保证了效率,开发当中推荐使用
+ * 双重检测，即保证了线程安全，同时也保证了效率,开发当中推荐使用
  */
 class singleton{
 
